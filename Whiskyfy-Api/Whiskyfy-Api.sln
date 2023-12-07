@@ -1,0 +1,125 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Whiskyfy-Api", "Whiskyfy-Api.csproj", "{EC000AC1-493C-4B79-9C27-AE131559D9EA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Whiskyfy-Api.ApplicationServices", "..\Whiskyfy-Api.ApplicationServices\Whiskyfy-Api.ApplicationServices.csproj", "{F2C09A21-F410-4631-BC9A-333F7A3CE2A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Whiskyfy-Api.Domain.Models", "..\Whiskyfy-Api.Domain.Models\Whiskyfy-Api.Domain.Models.csproj", "{3FA09EB8-1E55-4F42-BB30-2DA64A561CFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Whiskyfy-Api.Domain.Services", "..\Whiskyfy-Api.Domain.Services\Whiskyfy-Api.Domain.Services.csproj", "{818EBE09-89E9-4660-AD0D-900C84B72D36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Whiskyfy-Api.Infrastructure.Repository", "..\Whiskyfy-Api.Infrastructure.Repository\Whiskyfy-Api.Infrastructure.Repository.csproj", "{08D8A873-C3DC-4052-A8A6-B76958BE78C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Whiskyfy-Api.Transversal.Utils", "..\Whiskyfy-Api.Transversal.Utils\Whiskyfy-Api.Transversal.Utils.csproj", "{3B6239F2-C212-4D6C-8CB3-99853FC1868D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Distributed Web Services", "1.Distributed Web Services", "{782B955C-B1B4-4AB2-B4E1-57F69FE716E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Application Services", "2.Application Services", "{36ADDBC2-298A-4FA9-B015-C28F315701CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Domain", "3.Domain", "{22166C20-FEA6-41F8-88CF-590240B10F07}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Infrastructure", "4.Infrastructure", "{4F2B5177-E3F3-48D5-B756-00E0745AE28E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.Transversal", "5.Transversal", "{01F30C93-7FF2-4A7C-B1CE-613C7BA6E561}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6.Testing", "6.Testing", "{E35E1A94-76C9-4033-A885-B8131D4303D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.DistributedWebServices", "1.DistributedWebServices", "{E13D3660-C814-4906-AC3D-E3F75E7AEBEF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.ApplicationServices", "2.ApplicationServices", "{0B331B93-2B84-4B72-AC33-1769205895D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Domain", "3.Domain", "{2CF5C7E5-D2CC-4130-8205-C028B156BEDE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Infrastructure", "4.Infrastructure", "{C9C311D3-4F9F-4B18-B882-EDCB1312921D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5.Transversal", "5.Transversal", "{29AC0664-DFB8-414C-8DCA-58BE3D59178C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Whiskyfy-Api.DistributedWebServices.Unit.Testing", "..\Whiskyfy-Api.DistributedWebServices.Unit.Testing\Whiskyfy-Api.DistributedWebServices.Unit.Testing.csproj", "{FDF36853-E2EE-4725-8F1B-EDCECA02F776}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Whiskyfy-Api.ApplicationServices.Unit.Testing", "..\Whiskyfy-Api.ApplicationServices.Unit.Testing\Whiskyfy-Api.ApplicationServices.Unit.Testing.csproj", "{1004B1D5-48A0-4FE5-9D63-B1ED50BD2CD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Whiskyfy-Api.Domain.Unit.Testing", "..\Whiskyfy-Api.Domain.Unit.Testing\Whiskyfy-Api.Domain.Unit.Testing.csproj", "{8602820B-8597-4EB1-900F-CF2640E319DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Whiskyfy-Api.Infrastructure.Unit.Testing", "..\Whiskyfy-Api.Infrastructure.Unit.Testing\Whiskyfy-Api.Infrastructure.Unit.Testing.csproj", "{B4F257A1-9E74-412B-9BFC-0D4B1E57BEA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Whiskyfy-Api.Transversal.Unit.Testing", "..\Whiskyfy-Api.Transversal.Unit.Testing\Whiskyfy-Api.Transversal.Unit.Testing.csproj", "{76D42EC9-2424-403A-89F7-1B4DACABADCD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC000AC1-493C-4B79-9C27-AE131559D9EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC000AC1-493C-4B79-9C27-AE131559D9EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC000AC1-493C-4B79-9C27-AE131559D9EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC000AC1-493C-4B79-9C27-AE131559D9EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2C09A21-F410-4631-BC9A-333F7A3CE2A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2C09A21-F410-4631-BC9A-333F7A3CE2A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2C09A21-F410-4631-BC9A-333F7A3CE2A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2C09A21-F410-4631-BC9A-333F7A3CE2A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FA09EB8-1E55-4F42-BB30-2DA64A561CFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FA09EB8-1E55-4F42-BB30-2DA64A561CFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FA09EB8-1E55-4F42-BB30-2DA64A561CFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FA09EB8-1E55-4F42-BB30-2DA64A561CFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{818EBE09-89E9-4660-AD0D-900C84B72D36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{818EBE09-89E9-4660-AD0D-900C84B72D36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{818EBE09-89E9-4660-AD0D-900C84B72D36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{818EBE09-89E9-4660-AD0D-900C84B72D36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08D8A873-C3DC-4052-A8A6-B76958BE78C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08D8A873-C3DC-4052-A8A6-B76958BE78C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08D8A873-C3DC-4052-A8A6-B76958BE78C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08D8A873-C3DC-4052-A8A6-B76958BE78C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B6239F2-C212-4D6C-8CB3-99853FC1868D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B6239F2-C212-4D6C-8CB3-99853FC1868D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B6239F2-C212-4D6C-8CB3-99853FC1868D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B6239F2-C212-4D6C-8CB3-99853FC1868D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDF36853-E2EE-4725-8F1B-EDCECA02F776}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDF36853-E2EE-4725-8F1B-EDCECA02F776}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDF36853-E2EE-4725-8F1B-EDCECA02F776}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDF36853-E2EE-4725-8F1B-EDCECA02F776}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1004B1D5-48A0-4FE5-9D63-B1ED50BD2CD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1004B1D5-48A0-4FE5-9D63-B1ED50BD2CD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1004B1D5-48A0-4FE5-9D63-B1ED50BD2CD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1004B1D5-48A0-4FE5-9D63-B1ED50BD2CD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8602820B-8597-4EB1-900F-CF2640E319DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8602820B-8597-4EB1-900F-CF2640E319DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8602820B-8597-4EB1-900F-CF2640E319DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8602820B-8597-4EB1-900F-CF2640E319DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4F257A1-9E74-412B-9BFC-0D4B1E57BEA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4F257A1-9E74-412B-9BFC-0D4B1E57BEA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4F257A1-9E74-412B-9BFC-0D4B1E57BEA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4F257A1-9E74-412B-9BFC-0D4B1E57BEA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76D42EC9-2424-403A-89F7-1B4DACABADCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76D42EC9-2424-403A-89F7-1B4DACABADCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76D42EC9-2424-403A-89F7-1B4DACABADCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76D42EC9-2424-403A-89F7-1B4DACABADCD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EC000AC1-493C-4B79-9C27-AE131559D9EA} = {782B955C-B1B4-4AB2-B4E1-57F69FE716E8}
+		{F2C09A21-F410-4631-BC9A-333F7A3CE2A1} = {36ADDBC2-298A-4FA9-B015-C28F315701CD}
+		{3FA09EB8-1E55-4F42-BB30-2DA64A561CFA} = {22166C20-FEA6-41F8-88CF-590240B10F07}
+		{818EBE09-89E9-4660-AD0D-900C84B72D36} = {22166C20-FEA6-41F8-88CF-590240B10F07}
+		{08D8A873-C3DC-4052-A8A6-B76958BE78C0} = {4F2B5177-E3F3-48D5-B756-00E0745AE28E}
+		{3B6239F2-C212-4D6C-8CB3-99853FC1868D} = {01F30C93-7FF2-4A7C-B1CE-613C7BA6E561}
+		{E13D3660-C814-4906-AC3D-E3F75E7AEBEF} = {E35E1A94-76C9-4033-A885-B8131D4303D8}
+		{0B331B93-2B84-4B72-AC33-1769205895D5} = {E35E1A94-76C9-4033-A885-B8131D4303D8}
+		{2CF5C7E5-D2CC-4130-8205-C028B156BEDE} = {E35E1A94-76C9-4033-A885-B8131D4303D8}
+		{C9C311D3-4F9F-4B18-B882-EDCB1312921D} = {E35E1A94-76C9-4033-A885-B8131D4303D8}
+		{29AC0664-DFB8-414C-8DCA-58BE3D59178C} = {E35E1A94-76C9-4033-A885-B8131D4303D8}
+		{FDF36853-E2EE-4725-8F1B-EDCECA02F776} = {E13D3660-C814-4906-AC3D-E3F75E7AEBEF}
+		{1004B1D5-48A0-4FE5-9D63-B1ED50BD2CD4} = {0B331B93-2B84-4B72-AC33-1769205895D5}
+		{8602820B-8597-4EB1-900F-CF2640E319DB} = {2CF5C7E5-D2CC-4130-8205-C028B156BEDE}
+		{B4F257A1-9E74-412B-9BFC-0D4B1E57BEA0} = {C9C311D3-4F9F-4B18-B882-EDCB1312921D}
+		{76D42EC9-2424-403A-89F7-1B4DACABADCD} = {29AC0664-DFB8-414C-8DCA-58BE3D59178C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7175A079-F215-4335-AAB3-766C328E18C1}
+	EndGlobalSection
+EndGlobal
