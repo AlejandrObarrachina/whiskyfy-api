@@ -1,4 +1,5 @@
 
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Versioning;
 using Whiskyfy_Api.ApplicationServices.Configuration;
 using Whiskyfy_Api.ApplicationServices.Contracts;
@@ -22,16 +23,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IUserManagmentAppServices, UserManagmentAppServices>();
 builder.Services.AddScoped<IProductsApplicationServices, ProductsApplicationServices>();
 
-builder.Services.AddApiVersioning(o =>
-{
-    o.AssumeDefaultVersionWhenUnspecified = true;
-    o.DefaultApiVersion = new Microsoft.AspNetCore.Mvc.ApiVersion(1, 0);
-    o.ReportApiVersions = true;
-    o.ApiVersionReader = ApiVersionReader.Combine(
-        new QueryStringApiVersionReader("api-version"),
-        new HeaderApiVersionReader("X-Version"),
-        new MediaTypeApiVersionReader("ver"));
-});
+
 builder.Services.AddEndpointsApiExplorer();
 
 builder.Services.AddHttpContextAccessor();
@@ -43,6 +35,23 @@ IConfiguration configuration = new ConfigurationBuilder()
     .Build();
 
 ApplicationServicesConfiguration.ConfigureServices(builder.Services, configuration);
+
+#region API Versioning
+builder.Services.AddApiVersioning(options =>
+{
+    options.ReportApiVersions = true;
+    options.AssumeDefaultVersionWhenUnspecified = true;
+    options.DefaultApiVersion = new ApiVersion(1, 0);
+});
+#endregion
+
+#region Redis config
+builder.Services.AddStackExchangeRedisCache(options =>
+{
+    options.Configuration = configuration.GetConnectionString("RedisConnection");
+});
+
+#endregion
 
 builder.Services.AddMemoryCache();
 builder.Services.AddHttpClient();
